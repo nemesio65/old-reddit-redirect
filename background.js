@@ -26,6 +26,7 @@ chrome.webRequest.onBeforeRequest.addListener(
   {
     urls: [
       "*://reddit.com/*",
+      "*://old.reddit.com/*",
       "*://www.reddit.com/*",
       "*://np.reddit.com/*",
       "*://amp.reddit.com/*",
