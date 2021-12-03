@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://old.reddit.com/*"],
+      "matches": ["*://libreddit.bhsnw.com/*"],
       "css": ["styles.css"],
       "run_at": "document_start"
     }
@@ -19,6 +19,7 @@
     "webRequest",
     "webRequestBlocking",
     "*://reddit.com/*",
+    "*://old.reddit.com/*",
     "*://www.reddit.com/*",
     "*://np.reddit.com/*",
     "*://amp.reddit.com/*",
