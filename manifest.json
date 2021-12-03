@@ -1,6 +1,6 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
+  "name": "LibReddit Redirect",
+  "description": "Ensure Reddit always loads the libreddit front end",
   "version": "1.6.0",
   "manifest_version": 2,
   "background": { "scripts": ["background.js"] },
